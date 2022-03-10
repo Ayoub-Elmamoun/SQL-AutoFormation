@@ -1,1 +1,1 @@
-INSERT INTO merradou(id, fullName) VALUES (1, "Merradou Abderrahmane");
+INSERT INTO ayoub(id, fullName) VALUES (1, "ayoub el mamoun");

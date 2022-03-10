@@ -1,1 +1,1 @@
-USE users; CREATE TABLE merradou (id int PRIMARY KEY, fullName varchar (250) );
+USE users; CREATE TABLE ayoub (id int PRIMARY KEY, fullName varchar (250) );
