@@ -1,2 +1,2 @@
-use customers;
+use testDB;
 create table customer1;

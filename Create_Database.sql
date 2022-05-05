@@ -1,1 +1,1 @@
-create database customers;
+CREATE DATABASE testDB;
