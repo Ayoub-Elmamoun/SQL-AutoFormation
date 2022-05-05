@@ -15,3 +15,5 @@ VALUES (5, 'Hardik', 27, 'Bhopal', 8500.00 );
 
 INSERT INTO CUSTOMERS (ID,NAME,AGE,ADDRESS,SALARY)
 VALUES (6, 'Komal', 22, 'MP', 4500.00 );
+
+--
