@@ -1,1 +1,0 @@
-INSERT INTO ayoub(id, fullName) VALUES (1, "ayoub el mamoun");
