@@ -13,3 +13,11 @@ SELECT * FROM CUSTOMERS WHERE SALARY LIKE '_00%';
 -- select rows that contains 'a' from  name
 
 SELECT * FROM CUSTOMERS WHERE NAME LIKE '%a%';
+
+-- select rows that contains start with 'a' and end with 'b'
+
+SELECT * FROM CUSTOMERS WHERE NAME LIKE 'a%b';
+
+-- select rows that dont contains 'a' from name
+
+SELECT * FROM CUSTOMERS WHERE NAME NOT LIKE '%a%';
