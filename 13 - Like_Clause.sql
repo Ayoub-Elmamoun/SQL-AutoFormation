@@ -21,3 +21,11 @@ SELECT * FROM CUSTOMERS WHERE NAME LIKE 'a%b';
 -- select rows that dont contains 'a' from name
 
 SELECT * FROM CUSTOMERS WHERE NAME NOT LIKE '%a%';
+
+-- select names that contains 'a' or 'b' or 'c' in the beginning 
+
+SELECT * FROM CUSTOMERS WHERE NAME LIKE '[abc]%';
+
+-- select names starts with anything form a to f
+
+SELECT * FROM CUSTOMERS WHERE NAME LIKE '[a-f]%';
