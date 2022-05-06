@@ -1,9 +1,8 @@
 -- select fornisser that supply usine of the red product
 
-SELECT id FROM fournisseur,produit,puf,usine
+SELECT id FROM produit,puf
 
-inner join fournisseur on fournisseur.id=puf.IdFornisseur
-inner join usine on usine.id=puf.idusine
+inner join produit on produit.id=puf.idproduit
 
 where couleur='rouge' and idusine=2;
 

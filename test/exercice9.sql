@@ -1,7 +1,6 @@
-SELECT nom from fornisseur,puf,usine
+SELECT nom from produit,puf
 
-inner join fournisseur on fournisseur.id=puf.idfornisseur
-inner join usine on usine.id=puf.idusine
+inner join produit on produit.id=puf.idproduit
 
 where ville="paris" or ville="creteil" and couleur="rouge";
 
