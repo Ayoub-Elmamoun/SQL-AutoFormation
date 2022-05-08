@@ -1,4 +1,4 @@
 -- get salaries and dont repeat 
  
  SELECT DISTINCT SALARY FROM CUSTOMERS
-   ORDER BY SALARy;
+   ORDER BY SALARY;
